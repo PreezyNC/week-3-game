@@ -96,11 +96,11 @@ function roundComplete(){
 	document.getElementById("numGuesses").innerHTML = guessesLeft;
 	document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses.join(" ");
 	document.getElementById("wrongGuesses").innerHTML = wrongLetters.join(" ");
-
+	
 	//check if user won
 	if (lettersInWord.toString() == blanksAndSuccesses.toString()){
 		winCount++;
-		alert("You Won. The word was " + selectedWord + ".");
+		alert("You Won. The word was " + selectedWord.toUpperCase() + ".");
 
 
 		//update counter in html

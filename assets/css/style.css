@@ -1,8 +1,11 @@
+
+
+
 .jumbotron {
 	color: lime;
 	text-align: center;
 	font-family: 'Gloria Hallelujah', cursive;
-	
+	overflow: auto;
 }
 
 .game-panel {
@@ -20,4 +23,12 @@ h1 {
 
 body {
 	background-color: purple;
+}
+
+.panel-default {
+	border: solid 10px white;
+	margin-right: 400px;
+	margin-left: 400px;
+	overflow: auto;
+
 }

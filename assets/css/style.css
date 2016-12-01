@@ -1,0 +1,23 @@
+.jumbotron {
+	color: lime;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	
+}
+
+.game-panel {
+	color: lime;
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	font-size: 30px;
+}
+
+h1 {
+	border: solid 5px yellow;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+body {
+	background-color: purple;
+}
